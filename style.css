@@ -43,18 +43,15 @@ img{
     padding: 2px;
     border-radius: 2px;
 }
-#paragraph{
-    text-align: left;
-    font-weight: 600;
-    
-}
-#heading{
+h1{
     font-size:1.2rem;
     text-align: left;
     font-weight: 800;
+    margin-inline:15px ;
+    padding-top: 10px;
 }
  p{
-  font-weight:300;
+  font-weight:600;
   font-size: 0.8rem;
   text-align: left;
   padding-top: 10px;
@@ -76,7 +73,6 @@ img{
     padding: 2px;
     
 }
-#learn:hover{
-   transition: all 0.3s ease-out;
-   transform: scale(1.1);
+h1:hover{
+   color: hsl(47, 88%, 63%);
 }
